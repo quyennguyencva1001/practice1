@@ -1,3 +1,4 @@
+
 def nguyen_to(x):
     b=0
     for i in range (2,x):
@@ -11,3 +12,4 @@ def nguyen_to(x):
         print(str(x)+ " " + "khong la so nguyen to")
 ket_qua= nguyen_to(15)
 print(ket_qua)
+#return True false, tạo list đếm số nt trong list
