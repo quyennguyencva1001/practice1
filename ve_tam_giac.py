@@ -1,5 +1,4 @@
-a=int(input("nhap a"))
-for j in (a+1,1,-2):
-        print(" "*j)
-        for i in range (1,a+1,2):
-            print("*"*i)
+#Cách 1:
+a=int(input("nhap ao dong a = "))
+for i in range (1,a+1):
+    print(" "*(a-i)+"*"*i+"*"*(i-1))        
